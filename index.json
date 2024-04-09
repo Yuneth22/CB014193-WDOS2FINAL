@@ -1,0 +1,123 @@
+{
+  "title": "Wild Life in Sri Lanka",
+  "header": {
+    "title": "Welcome to the Wonders of Sri Lankan Wildlife"
+  },
+  "nav": [
+    {
+      "type": "search",
+      "placeholder": "Search..."
+    },
+    {
+      "type": "link",
+      "text": "Home",
+      "href": "index.html"
+    },
+    {
+      "type": "link",
+      "text": "Sri Lankan Wild Life Introduction",
+      "href": "wildlife-introduction.html"
+    },
+    {
+      "type": "link",
+      "text": "Department of Wild Life Conservation",
+      "href": "Wildlife-conservation.html"
+    },
+    {
+      "type": "link",
+      "text": "Sri Lankan Leopard",
+      "href": "srilankanleopard.html"
+    },
+    {
+      "type": "dropdown",
+      "text": "Animals in Sri Lanka",
+      "links": [
+        {
+          "text": "Yala National Park",
+          "href": "yala.html"
+        },
+        {
+          "text": "Wilpattu National Park",
+          "href": "wilpattu.html"
+        }
+      ]
+    }
+  ],
+  "main": {
+    "sections": [
+      {
+        "id": "main-image",
+        "img": {
+          "src": "homebackground.webp",
+          "alt": "Responsive Image of Diverse Sri Lankan Wildlife"
+        }
+      },
+      {
+        "id": "introduction",
+        "content": "Embark on a journey through the lush landscapes and diverse ecosystems that make Sri Lanka a haven for wildlife enthusiasts. From the vibrant birdlife that fills the skies to the majestic creatures that roam its national parks, our home is a testament to the incredible biodiversity found on this tropical island."
+      },
+      {
+        "id": "biodiversity",
+        "title": "Exploring Sri Lanka's Rich Biodiversity",
+        "sections": [
+          {
+            "id": "avian-paradise",
+            "title": "Avian Paradise",
+            "img": {
+              "src": "peafowl.webp",
+              "alt": "Colorful Peafowl"
+            },
+            "content": [
+              {
+                "text": "Witness the Symphony of Colors in the Sky. Sri Lanka boasts a rich avian population, with over 400 species of birds gracing its skies. From the iconic Sri Lankan Junglefowl to the elusive Ceylon Frogmouth, each bird tells a unique story. The island's varied landscapes provide a perfect habitat for both resident and migratory species, making it a birdwatcher's paradise."
+              },
+              {
+                "text": "Preserving Habitats for Future Generations. Dedicated conservation efforts ensure the protection of crucial habitats, securing the future of these winged wonders. Join us in celebrating the avian diversity that makes Sri Lanka truly special."
+              }
+            ]
+          },
+          {
+            "id": "wildlife-sanctuaries",
+            "title": "Wildlife Sanctuaries",
+            "img": {
+              "src": "elephant.webp",
+              "alt": "Elephants in a National Park"
+            },
+            "content": [
+              {
+                "text": "Roaming Free: Sri Lanka's Gentle Giants. Step into the heart of Sri Lanka's wildlife sanctuaries, where herds of majestic elephants roam freely. These gentle giants find refuge in the protected landscapes, creating a harmonious coexistence between humans and wildlife."
+              },
+              {
+                "text": "Conservation Initiatives: Balancing Act. Explore the initiatives aimed at preserving these natural havens. Learn about the delicate balance between conservation and human activities, ensuring the continued well-being of the magnificent elephants and their habitats."
+              }
+            ]
+          },
+          {
+            "id": "marine-marvels",
+            "title": "Marine Marvels",
+            "img": {
+              "src": "turtles.webp",
+              "alt": "Sea Turtles on the Shore"
+            },
+            "content": [
+              {
+                "text": "Dive into the Depths: Marine Diversity. Sri Lanka's enchanting coastline is home to a stunning array of marine life. From graceful sea turtles to playful dolphins, the crystal-clear waters teem with biodiversity. Explore the vibrant coral reefs that provide a sanctuary for a myriad of underwater species."
+              },
+              {
+                "text": "Sustainable Practices for Ocean Conservation. Discover how Sri Lanka embraces sustainable practices to protect its marine treasures. Learn about the ongoing efforts to conserve the ocean ecosystems, ensuring a thriving environment for marine life for generations to come."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "experience-beauty",
+        "title": "Experience the Beauty of Sri Lanka's Wildlife",
+        "cta": {
+          "text": "Discover More",
+          "href": "wildlife-introduction.html"
+        }
+      }
+    ]
+  }
+}

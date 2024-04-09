@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    background-image: url('yalaback.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    background-color: #000 !important;
+    padding: 10px;
+}
+
+.search-bar {
+    margin-right: auto;
+    padding: 5px;
+}
+
+.search-bar input {
+    width: 150px;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff !important;
+    padding: 10px;
+    margin: 0 10px !important; 
+    background-color: #000000 !important; 
+    transition: background-color 0.3s; 
+}
+
+nav a:hover {
+    background-color: #cbbfbf;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #cbbfbf;
+    box-shadow: 0 8px 16px rgba(172, 164, 164, 0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    display: block;
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.dropdown-content a:hover {
+    background-color: #666;
+}
+
+.content-box {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.chatbox1, .chatbox2 {
+    position: absolute;
+    background-color: rgba(167, 165, 165, 0.6);
+    padding: 10px;
+    border-radius: 30px;
+    animation: slide-in 1s ease-in;
+}
+
+.chatbox1 {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 100;
+}
+
+.chatbox2 {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 100;
+}
+
+
+@keyframes slide-in {
+    from {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+    to {
+        opacity: 0;
+        transform: translateX(5);
+    }
+}
+
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+.chatbox {
+    margin-bottom: 10px;
+}
+
+input[type="email"] {
+    width: 200px;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}

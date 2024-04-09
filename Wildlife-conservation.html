@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" x-data="loadData()">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Department of Wildlife Conservation</title>
+    <link rel="stylesheet" type="text/css" href="Wildlife-conservation.css">
+    <link rel="icon" href="deerfav.webp">
+</head>
+
+<body>
+
+  <header x-text="data.title"></header>
+
+  <nav>
+    <div class="search-bar">
+        <input type="text" name="query" placeholder="Search...">
+    </div>
+</form>
+<a href="login.html">Login</a>
+<a href="index.html">Home</a>
+<a href="wildlife-introduction.html">Sri Lankan Wild Life Introduction</a>
+<a href="Wildlife-conservation.html">Department of Wild Life Conservation</a>
+<a href="srilankanleopard.html">Sri Lankan Leopard</a>
+<div class="dropdown">
+    <a href="Animals.html">Animals in Sri Lanka</a>
+    <div class="dropdown-content">
+        <a href="yala.html">Yala National Park</a>
+        <a href="wilpattu.html">Wilpattu National Park</a>
+    </div>
+</div>
+</nav>
+
+  <section id="intro">
+    <div class="text-box">
+      <h2 x-text="data.intro.title"></h2>
+      <p x-text="data.intro.text"></p>
+    </div>
+  </section>
+
+  <section id="gallery">
+    <h2>Protected Areas Gallery</h2>
+    <div class="gallery">
+      <template x-for="item in data.gallery.items">
+        <div class="gallery-item">
+          <h3 x-text="item.name"></h3>
+          <img :src="item.img" :alt="item.name">
+          <p x-text="item.desc"></p>
+        </div>
+      </template>
+    </div>
+  </section>
+
+  <section id="map">
+    <h2 x-text="data.map.title"></h2>
+    <iframe :src="data.map.src"></iframe>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+  <script src="Wildlife-conservation.js"></script>
+
+</body>
+<br>
+<br>
+
+
+
+
+<footer>
+  <div class="chatbox">
+      <!-- Chatbox content -->
+  </div>
+  <input type="email" id="emailInput" placeholder="Enter your email">
+  <button id="subscribeButton" onclick="subscribe()" style="display: none;">Subscribe</button>
+  <button id="dashboardButton" onclick="navigateToDashboard()" style="display: none;">Dashboard</button>
+</footer>
+
+</html>
+
+
